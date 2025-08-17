@@ -1,16 +1,16 @@
 {
     "type": "micro",
-    "wake_word": "hey_luna",
+    "wake_word": "hey_house",
     "author": "adamlonsdale",
     "website": "https://github.com/adamlonsdale",
-    "model": "hey_luna.tflite",
-    "version": 3,
+    "model": "hey_house.tflite",
+    "version": 1,
     "trained_languages": ["en"],
     "micro": {
-      "probability_cutoff": 0.63,
+      "probability_cutoff": 0.75,
       "sliding_window_size": 5,
       "feature_step_size": 10,
-      "tensor_arena_size": 37000,
+      "tensor_arena_size": 22860,
       "minimum_esphome_version": "2025.5.0"
     }
   }
